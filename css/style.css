@@ -1,0 +1,135 @@
+
+/* General Styles */
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #0d6efd, #243b55);
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Main Container */
+main {
+    max-width: 950px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card h3 {
+    color: #243b55;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.form-label {
+    font-weight: 600;
+    color: #444;
+}
+
+.form-control {
+    padding: 11px;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+}
+
+/* Buttons */
+.btn {
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
+
+/* Error Message */
+#errorMessage {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Students List */
+#studentsDisplay {
+    margin-top: 10px;
+}
+
+.student-item {
+    background-color: #eef3f8;
+    border-left: 4px solid #0d6efd;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+/* Final Report */
+#finalReport {
+    line-height: 2;
+}
+
+#finalReport h5 {
+    color: #198754;
+    font-weight: bold;
+}
+
+#finalReport li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    background-color: #212529;
+    color: white;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+
+    header h1 {
+        font-size: 23px;
+    }
+
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card {
+        padding: 15px !important;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
